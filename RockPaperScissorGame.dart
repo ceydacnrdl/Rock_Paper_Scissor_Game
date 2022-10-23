@@ -83,7 +83,7 @@ void main() {
           print("Do you want to play again Y/N.");
           String playAgain = stdin.readLineSync()!.toUpperCase();
           if (playAgain== "Y") {
-            return;
+            return main();
           }
           else{
             break;
